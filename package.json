@@ -1,0 +1,19 @@
+{
+    "name": "custom-server-express",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "cross-env node server.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.1.0",
+        "express": "^4.14.0",
+        "next": "latest",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0"
+    }
+}
